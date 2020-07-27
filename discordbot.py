@@ -23,4 +23,4 @@ async def on_ready():
                 
                 
 
-client.run("NzM3MjEwMjAyMDAwMTk1NjU1.Xx6CgA.zwW17vyfE2kd2mCUf0AXiisvL28")
+client.run("NzM3MjEwMjAyMDAwMTk1NjU1.Xx6CgA.sFulgM34FSNsc9emFf-Q2SWL_EI")

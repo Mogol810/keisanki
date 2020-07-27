@@ -1,7 +1,7 @@
 import discord
 import datetime 
 from time import sleep
- 
+TOKEN = os.environ['DISCORD_BOT_TOKEN']
 client = discord.Client()
 
 @client.event
@@ -23,4 +23,4 @@ async def on_ready():
                 
                 
 
-client.run(TOKEN_OF_YOUR_BOT)
+client.run(TOKEN)

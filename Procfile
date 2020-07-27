@@ -1,1 +1,1 @@
-bot: python keisankibot.py
+discordbot: python discordbot.py

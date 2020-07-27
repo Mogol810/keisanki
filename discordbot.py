@@ -23,4 +23,4 @@ async def on_ready():
                 
                 
 
-client.run(DISCORD_BOT_TOKEN)
+client.run(TOKEN_OF_YOUR_BOT)

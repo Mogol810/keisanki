@@ -25,5 +25,4 @@ async def on_ready():
                 
                 
 
-client.run(TOKEN)
-
+client.run('TOKEN_OF_YOUR_BOT')

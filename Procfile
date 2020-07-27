@@ -1,1 +1,1 @@
-bot: python keisankibot.py
+work: python keisankibot.py

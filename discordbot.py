@@ -1,9 +1,7 @@
 import discord
 import datetime 
 from time import sleep
-
-
-TOKEN = "NzM3MjEwMjAyMDAwMTk1NjU1.Xx6CgA.UtdHTdIzQoJf06OKNfWm3J8_eH4"  
+ 
 client = discord.Client()
 
 @client.event
@@ -25,4 +23,4 @@ async def on_ready():
                 
                 
 
-client.run(TOKEN)
+client.run("NzM3MjEwMjAyMDAwMTk1NjU1.Xx6CgA.UtdHTdIzQoJf06OKNfWm3J8_eH4")

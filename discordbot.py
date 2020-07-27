@@ -1,6 +1,8 @@
 import discord
 import datetime 
+import os
 from time import sleep
+
 TOKEN = os.environ['DISCORD_BOT_TOKEN']
 client = discord.Client()
 

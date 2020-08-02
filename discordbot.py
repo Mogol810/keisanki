@@ -1,11 +1,12 @@
 import discord
 import datetime
+import os
 from time import sleep
 from discord.ext import tasks
 
 
 client = discord.Client()
-
+token = os.environ['DISCORD_BOT_TOKEN']
 @client.event
 async def on_ready():
     print('ログインしました')
@@ -34,4 +35,4 @@ async def time_check():
                 
                 
 
-client.run(DISCORD_BOT_TOKEN)
+client.run(token)
